@@ -2,10 +2,11 @@ let img;
 let imgb;
 let filtro= true;
 let canvas;
- function preload () {
-  img = loadImage (Math.floor(Math.random()* 4+1)".png");
+ function preload() {
+  img = loadImage (Math.floor(Math.random()* 4+1) + ".png");
   //  img = loadImage ("vids/3.png");
     imgb = img;// loadImage ("2.png");//createImage (img.width,img.height);
+    console.log('holaaa');
 }
 
 function setup () {
