@@ -4,7 +4,7 @@
   "description": "## About Proxxy es el duo audiovisual conformado en el 2019 por Serpiente Roja (Juana Molli) y Collatio (Máximo Signiorini)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "script.js"
   },
   "repository": {
     "type": "git",
