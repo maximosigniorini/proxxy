@@ -10,12 +10,12 @@ function setup() {
 
   //canvas.style('z-index','+1');
   //canvas.parent('p5');
-  slider = createSlider(0, 1, 0.5, 0.1);
+  // slider = createSlider(0, 1, 0.5, 0.1);
 }
 
 function draw() {
-  background(250);
-  vid.volume(slider.value());
+  // background(250);
+  // vid.volume(slider.value());
   vid2.volume(0);
   image(vid2, 10, 10);
   filter(INVERT);
