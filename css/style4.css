@@ -1,16 +1,10 @@
 body{
-  overflow: hidden;
   margin: 0;
 }
 
 video{
-  width: 100%;
-  height: 100%;
-}
-
-.particulas{
-  width: 1280px;
-  height: 720px;
+  width: 1920px;
+  height: 1080px;
 }
 
 a{
