@@ -1,25 +1,29 @@
-let glitch;
+let miGlitch;
 
 function setup() {
-	createCanvas(10, 10);
-	background(0);
-	imageMode(CENTER);
+  let cnv = createCanvas(300, 240);
+  cnv.position(windowWidth - width, 0)
+  imageMode(CENTER);
 
-	glitch = new Glitch();
-	loadImage('../assets/juana.jpeg', function(im){
-		glitch.loadImage(im);
-	});
+  miGlitch = new Glitch();
+  miGlitch.loadType('jpeg');
+  miGlitch.loadQuality(.25);
+
+
+  loadImage('../assets/juana.jpeg', function(im) {
+    miGlitch.loadImage(im);
+  });
 }
 
 function draw() {
-	glitch.resetBytes();
+  miGlitch.resetBytes();
 
-	glitch.replaceBytes(1,1); // swap all decimal byte 100 for 104
-   if(mouseX<(width/2)){
-	glitch.randomBytes(0); }
-     else{
-       glitch.randomBytes(4);}
+  miGlitch.replaceBytes(1, 1);
 
-	glitch.buildImage();
-	image(glitch.image, 10, 10,10,10)
+  if (mouseX > 0 && mouseY > 0 && mouseY < 240) {
+    miGlitch.randomBytes(4);
+  } 
+
+  miGlitch.buildImage();
+  image(miGlitch.image, width / 2, height / 2, width, height)
 }

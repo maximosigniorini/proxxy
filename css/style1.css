@@ -5,13 +5,15 @@ body{
 }
 
 h1{
-  margin-left: 20px;
+  margin-left: 5%;
+  font-family: 'Andale Mono';
+  font-weight: normal;
+  font-style: cursive;
   color: white;
-  font-size:2em;
+  font-size:5em;
   }
 
 p {
-
   color:white;
   margin-left: 2em;
   margin-right: 2em;
@@ -20,4 +22,10 @@ p {
   font-family: 'Andale Mono';
   font-weight: normal;
   font-style: cursive;
+}
+
+
+.content{
+  position: absolute;
+  top: 30%;
 }
