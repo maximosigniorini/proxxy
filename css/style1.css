@@ -1,0 +1,23 @@
+body{
+  background-color: black;
+  font-weight: normal;
+
+}
+
+h1{
+  margin-left: 20px;
+  color: white;
+  font-size:2em;
+  }
+
+p {
+
+  color:white;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: 2em;
+  font-size:1em;
+  font-family: 'Andale Mono';
+  font-weight: normal;
+  font-style: cursive;
+}
