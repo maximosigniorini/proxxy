@@ -5,7 +5,8 @@ body{
 }
 
 h1{
-  margin-left: 5%;
+  margin-left: 40%;
+  margin-top: -2%;
   font-family: 'Andale Mono';
   font-weight: normal;
   font-style: cursive;
@@ -16,8 +17,8 @@ h1{
 p {
   color:white;
   margin-left: 2em;
-  margin-right: 2em;
-  padding: 2em;
+  margin-right: 35em;
+  padding: 1em;
   font-size:1em;
   font-family: 'Andale Mono';
   font-weight: normal;

@@ -1,8 +1,10 @@
 let miGlitch;
 
 function setup() {
-  let cnv = createCanvas(300, 240);
-  cnv.position(windowWidth - width, 0)
+  let cnv = createCanvas(300, 300);
+  cnv.position(windowWidth-400, 200);
+//   if mousePressed ()== true {
+//    cnv.position(mouseX,mouseY);}
   imageMode(CENTER);
 
   miGlitch = new Glitch();
@@ -22,7 +24,7 @@ function draw() {
 
   if (mouseX > 0 && mouseY > 0 && mouseY < 240) {
     miGlitch.randomBytes(4);
-  } 
+  }
 
   miGlitch.buildImage();
   image(miGlitch.image, width / 2, height / 2, width, height)
