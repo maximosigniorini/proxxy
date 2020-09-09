@@ -42,10 +42,6 @@ h1 {
   color: white;
 }
 
-.img1 {
-  width: 300px;
-}
-
 .overlay {
   width: 5em;
   height: auto;
@@ -54,7 +50,6 @@ h1 {
   top: 1%;
   left: 16%;
   opacity: 0;
-  transition: opacity 300ms ease-in-out;
   pointer-events: none;
   font-family: Arial;
   background: #ededed;

@@ -25,9 +25,35 @@ p {
   font-style: cursive;
 }
 
+hr{
+  position: absolute;
+  margin-left: 4%;
+  width: 50%;
+}
+
+a{
+  text-decoration: none;
+}
 
 .content{
   position: absolute;
   top: 30%;
   margin-top: 5%;
+}
+
+.fa-long-arrow-alt-left{
+  font-size: 2em;
+  color: grey;
+}
+
+.atras{
+  position: fixed;
+  top: 0;
+  left: 10px;
+  width: 50px;
+  opacity: 1;
+}
+
+.atras:hover{
+  opacity: .5;
 }
