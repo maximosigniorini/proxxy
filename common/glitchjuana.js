@@ -2,7 +2,7 @@ let miGlitch;
 
 function setup() {
   let cnv = createCanvas(300, 300);
-  cnv.position(windowWidth-400, 10);
+  cnv.position(0, 300);
 
   imageMode(CENTER);
 
