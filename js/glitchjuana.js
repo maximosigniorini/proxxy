@@ -3,14 +3,14 @@ let cuadradosVisibles = [];
 let cuadradosInvisibles = [];
 
 function setup() {
-  let cnv = createCanvas(windowWidth-550, 300);
-  cnv.position(550, -10);
+  let cnv = createCanvas(windowWidth, 300);
+  cnv.position(0, -10);
   cnv.style('z-index','-1');
 
   imageMode(CENTER);
   miImg = loadImage('../assets/juana.jpeg')
 
-  for (let i = 0; i < 30; i++) {
+  for (let i = 0; i < 100; i++) {
     let cuadradoVisible = {
       x: random(width),
       y: random(height),
@@ -19,7 +19,7 @@ function setup() {
     cuadradosVisibles.push(cuadradoVisible);
   }
 
-  for (let i = 0; i < 60; i++) {
+  for (let i = 0; i < 100; i++) {
     let cuadradoInvisible = {
       x: random(width),
       y: random(height),
@@ -29,7 +29,7 @@ function setup() {
   }
 
   for (var i = 0; i < cuadradosVisibles.length; i++) {
-    fill(255);
+    fill(255,200);
     noStroke();
     square(cuadradosVisibles[i].x, cuadradosVisibles[i].y, cuadradosVisibles[i].r);
 
@@ -55,5 +55,5 @@ function draw() {
       square(cuadradosInvisibles[i].x, cuadradosInvisibles[i].y, cuadradosInvisibles[i].r);
     }
   }
-  image(miImg, width * 0.8, height * 0.6, 300, 300)
+  image(miImg, width * 0.9, height * 0.55, 300, 300)
 }
