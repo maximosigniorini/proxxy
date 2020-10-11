@@ -1,51 +1,51 @@
-body{
+body {
   background-color: black;
   font-weight: normal;
 }
 
-h1{
+h1 {
   margin-left: 40%;
   margin-top: -2%;
   font-family: 'Andale Mono';
   font-weight: normal;
   font-style: cursive;
   color: white;
-  font-size:5em;
-  }
+  font-size: 5em;
+}
 
 p {
-  color:white;
+  color: white;
   margin-left: 2em;
   margin-right: 35em;
   padding: 1em;
-  font-size:1em;
+  font-size: 1em;
   font-family: 'Andale Mono';
   font-weight: normal;
   font-style: cursive;
 }
 
-hr{
+hr {
   position: absolute;
   margin-left: 4%;
   width: 50%;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.content{
+.content {
   position: absolute;
   top: 30%;
   margin-top: 5%;
 }
 
-.fa-long-arrow-alt-left{
+.fa-long-arrow-alt-left {
   font-size: 2em;
   color: grey;
 }
 
-.atras{
+.atras {
   position: fixed;
   top: 0;
   left: 10px;
@@ -53,10 +53,19 @@ a{
   opacity: 1;
 }
 
-.atras:hover{
+.atras:hover {
   opacity: .5;
 }
 
-.video{
+.video {
   margin-left: 5%;
+}
+
+.divisor {
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
+  position: absolute;
+  margin-left: -50%;
+  /* opacity: .5; */
 }
