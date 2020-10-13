@@ -1,8 +1,8 @@
 let glitch;
 
 function setup() {
-	let cnv = createCanvas(300, 300);
-  cnv.position(windowWidth-400, 10);
+	let cnv = createCanvas(280, 280);
+  cnv.position(windowWidth * 0.75, 10);
   imageMode(CENTER);
 
 	glitch = new Glitch();
@@ -18,7 +18,7 @@ function draw() {
 
 	glitch.replaceBytes(1,1); // swap all decimal byte 100 for 104
 
-	if (mouseX > 0 && mouseY > 0 && mouseY < 240) {
+	if (mouseX > 0 && mouseY > 0 && mouseY < 280) {
 		glitch.randomBytes(4);
 	}
 

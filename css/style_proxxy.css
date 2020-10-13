@@ -12,16 +12,16 @@ h1{
   }
 
 p {
-  color:white;
-  font-size:1em;
-  font-family: 'Andale Mono';
-  font-weight: normal;
-  font-style: cursive;
+    color:white;
+    margin-right: 35em;
+    font-size:1em;
+    font-family: 'Andale Mono';
+    font-weight: normal;
+    font-style: cursive;
 }
 
 hr{
   position: absolute;
-  margin-left: 4%;
   width: 50%;
 }
 
@@ -50,4 +50,9 @@ a{
 
 .atras:hover{
   opacity: .5;
+}
+
+img{
+  position: absolute;
+  margin-left: 70%;
 }

@@ -4,21 +4,36 @@ body {
 }
 
 h1 {
-  margin-left: 40%;
-  margin-top: -2%;
+  margin-top: 3%;
+  margin-left: 2%;
   font-family: 'Andale Mono';
   font-weight: normal;
   font-style: cursive;
   color: white;
-  font-size: 5em;
+  font-size: 4em;
+}
+
+video {
+  display: block;
+  float: left;
+  margin-left: -5%;
+  margin-top: -2%;
+  padding: 0;
+}
+
+#desc{
+  display: block;
+  float: right;
+  width: 650px;
+  margin-right: 2%;
+  margin-top: -3%;
 }
 
 p {
   color: white;
-  margin-left: 2em;
-  margin-right: 35em;
-  padding: 1em;
-  font-size: 1em;
+  float: right;
+  font-size: 1.2em;
+  line-height: 2;
   font-family: 'Andale Mono';
   font-weight: normal;
   font-style: cursive;
@@ -32,6 +47,16 @@ hr {
 
 a {
   text-decoration: none;
+}
+
+i:hover{
+  color: white;
+}
+
+i{
+  font-size: 3em;
+  margin-left: 2%;
+  color: grey;
 }
 
 .content {
@@ -54,18 +79,5 @@ a {
 }
 
 .atras:hover {
-  opacity: .5;
-}
-
-.video {
-  margin-left: 5%;
-}
-
-.divisor {
-  max-width: 100%;
-  height: auto;
-  z-index: -1;
-  position: absolute;
-  margin-left: -50%;
   opacity: .5;
 }
