@@ -22,11 +22,11 @@ video {
 }
 
 #desc{
-  display: block;
+  /* display: block; */
   float: right;
   width: 650px;
-  margin-right: 1%;
-  margin-top: -31%;
+  /* margin-right: 1%; */
+  /* margin-top: -3%; */
 }
 
 p {
